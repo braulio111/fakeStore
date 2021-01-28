@@ -1,13 +1,157 @@
+html {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  'header'
+  'main'
+  'footer';
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 1fr 60px;
+  height: 100vh;
+}
+
+.header__links a:hover {
+  color: grey;
+}
+
+/* Header */
+.header {
+  grid-area: header;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.header__title {
+  font-size: 30px;
+  min-width: 180px;
+  font-weight: bold;
+}
+
+.header__links {
+  font-size: 16px;
+}
+
+.main {
+  grid-area: main;
+  background-color: #ffff;
+  padding: 10px;
+}
+
+.main h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  margin: 10px;
+}
+
+.cards-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 335px;
+  height: 100%;
+}
+
+.card a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__price {
+  font-size: 20px;
+}
+
+.card__description {
+  text-align: justify;
+  margin: 10px 0 10px 0;
+}
+
+.card__title {
+  margin: 10px 0 10px 0;
+  font-size: 20px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product__title-img {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.product__desc {
+  text-align: justify;
+}
+
+.product__info {
+  max-width: 500px;
+  margin: 10px;
+}
+
+.product__category, .product__price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product__cart {
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px auto 10px auto;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #fff;
+  color: black;
+  width: 100%;
+}
+
+.product__cart:hover {
+  background-color: black;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
 }
