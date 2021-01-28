@@ -18,7 +18,7 @@ export default function Product(props) {
 
   return (
     <>
-    <h1>Productos</h1>
+    <h1>Products</h1>
     <div className="cards-wrap">
       {
         products.map(product => {
