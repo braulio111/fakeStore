@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# fakeStore
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React estore fetching fakestoreapi.com for items.
 
 ## Available Scripts
 
