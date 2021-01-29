@@ -75,7 +75,6 @@ body {
   padding: 10px;
   margin: 10px;
   max-width: 335px;
-  height: 100%;
 }
 
 .card a {
@@ -87,6 +86,12 @@ body {
 
 .card__img {
   width: 100%;
+}
+
+.card.category-card {
+  border: none;
+  border-radius: 0px;
+  background-color: #f3f3f3;
 }
 
 .footer {
@@ -105,11 +110,15 @@ body {
 .card__description {
   text-align: justify;
   margin: 10px 0 10px 0;
+  overflow: scroll;
+  height: 100px;
 }
 
 .card__title {
   margin: 10px 0 10px 0;
   font-size: 20px;
+  overflow: hidden;
+  height: 48px;
 }
 
 .product {

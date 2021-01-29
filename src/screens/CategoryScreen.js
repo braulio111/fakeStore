@@ -2,23 +2,24 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import ProductCard from '../components/ProductCard';
 
-export default function Product(props) {
+export default function CategoryScreen(props) {
   const [products, setProducts] = useState([]);
+  const category = props.match.params.category;
 
-  const fetchProducts = async () => {
-    await axios.get('https://fakestoreapi.com/products')
-      .then(response => setProducts(response.data))
-      .catch(err => console.log(err))
-  }
   useEffect(() => {
+    const fetchProducts = async () => {
+    const { data } = await axios.get(`https://fakestoreapi.com/products/category/${category}`);
+    setProducts(data);
+    }
     fetchProducts();
-  }, []);
+  }, [category]);
 
+  console.log(category);
   console.log(products);
 
   return (
     <>
-    <h1>Products</h1>
+    <h1>{category.toUpperCase()}</h1>
     <div className="cards-wrap">
       {
         products.map(product => {
