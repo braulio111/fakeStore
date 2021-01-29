@@ -1,8 +1,9 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ProductScreen from "./screens/ProductScreen";
 import HomeScreen from "./screens/HomeScreen";
 import CategoriesScreen from './screens/CategoriesScreen';
+import CategoryScreen from './screens/CategoryScreen';
 
 function App() {
   return (
@@ -14,13 +15,15 @@ function App() {
         </div>
         <div className="header__links">
           <a href="/">Products</a>
-          <a href="/categories">Categories</a>
+          <a href="/category">Categories</a>
         </div>
       </div>
       <div className="main">
+        <Switch>
         <Route path="/product/:id" component={ProductScreen}></Route>
         <Route path="/" component={HomeScreen} exact></Route>
-        <Route path="/categories" component={CategoriesScreen}></Route>
+        <Route path="/category" component={CategoriesScreen}></Route>
+        </Switch>
       </div>
       <div className="footer">All rights reserved.</div>
     </div>
