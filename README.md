@@ -2,6 +2,10 @@
 
 React estore fetching fakestoreapi.com for items.
 
+## To-do
+- Organize class naming and entire styling file
+- Deployment
+
 ## Available Scripts
 
 In the project directory, you can run:
