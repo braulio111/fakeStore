@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ProductScreen from "./screens/ProductScreen";
 import HomeScreen from "./screens/HomeScreen";
 import CategoriesScreen from './screens/CategoriesScreen';
-import CategoryScreen from './screens/CategoryScreen';
 
 function App() {
   return (

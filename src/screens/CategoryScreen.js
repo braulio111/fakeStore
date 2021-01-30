@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import ProductCard from '../components/ProductCard';
+import { Link } from 'react-router-dom';
 
 export default function CategoryScreen(props) {
   const [products, setProducts] = useState([]);
@@ -19,7 +20,11 @@ export default function CategoryScreen(props) {
 
   return (
     <>
-    <h1>{category.toUpperCase()}</h1>
+    <div className="category__header">
+      <Link to="/category" className="categories__link">←  Categories</Link>
+      <Link to="/category" className="categories__link-mobile">←</Link>
+      <h1 className="category__title">{category.toUpperCase()}</h1>
+    </div>
     <div className="cards-wrap">
       {
         products.map(product => {

@@ -23,7 +23,7 @@ export default function CategoryCards() {
       </div>
       <div className="card category-card">
         <a href="/category/electronics">
-          <img src="https://lh3.googleusercontent.com/proxy/O_JcfJFrOE1fUhdFMeKXF9YRgouJ2OZ7sk0j2PckKYnpL5jjIK1xICCjfA6Ze2-2po7G1plXFEnD9uQPrY60Aa4YVfHShcsBf1-rIoXyIVEqVzBhU0o" alt="producto" className="card__img" width="300px" height="300px" />
+          <img src="https://lh3.googleusercontent.com/proxy/7WP9PSvAhdHPSKPvLbAglwPfKgCSIfNbyBop0PfhLs8ER-hPkwrZfraQwmJVBdhS7ghZro0aKbg6pBpEdKkZDMYWXDv8XbGAdQ" alt="producto" className="card__img" width="300px" height="300px" />
         </a>
         <a href="/category/electronics">
           <h2 className="card__title">Electronics</h2>

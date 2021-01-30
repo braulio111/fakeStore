@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 export default function ProductScreen(props) {
   const [product, setProduct] = useState([]);
@@ -14,6 +15,8 @@ export default function ProductScreen(props) {
   }, [id_product]);
 
   return(
+    <>
+    <Link to="/" className="products__link">←  Products</Link>
     <div className="product">
       <div className="product__title-img">
         <h1 className="product__title">{product.title}</h1>
@@ -26,5 +29,6 @@ export default function ProductScreen(props) {
         <button className="product__cart">Add to cart</button>
       </div>
     </div>
+    </>
   );
 }
