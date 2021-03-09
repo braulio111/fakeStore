@@ -6,6 +6,11 @@ React estore fetching fakestoreapi.com for items.
 - Organize class naming and entire styling file
 - Deployment
 
+## View
+# Products Screen
+<img width="1440" alt="Captura de Pantalla 2021-03-08 a la(s) 19 18 50" src="https://user-images.githubusercontent.com/66181337/110403722-337e2000-8043-11eb-9a93-39d93f28644b.png">
+
+
 ## Available Scripts
 
 In the project directory, you can run:
