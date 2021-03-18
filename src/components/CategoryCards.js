@@ -23,7 +23,7 @@ export default function CategoryCards() {
       </div>
       <div className="card category-card">
         <a href="/category/electronics">
-          <img src="https://lh3.googleusercontent.com/proxy/7WP9PSvAhdHPSKPvLbAglwPfKgCSIfNbyBop0PfhLs8ER-hPkwrZfraQwmJVBdhS7ghZro0aKbg6pBpEdKkZDMYWXDv8XbGAdQ" alt="producto" className="card__img" width="300px" height="300px" />
+          <img src="https://shop.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-blue-3d-nand-sata-ssd/gallery/1tb/wd-blue-3d-nand-sata-ssd-1tb-front.png.thumb.1280.1280.png" alt="producto" className="card__img" width="300px" height="300px" />
         </a>
         <a href="/category/electronics">
           <h2 className="card__title">Electronics</h2>
