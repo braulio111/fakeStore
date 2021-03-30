@@ -1,6 +1,6 @@
 # fakeStore
 
-React estore fetching fakestoreapi.com for items.
+Responsive React estore fetching fakestoreapi.com for items.
 
 ## To-do
 - Deployment
