@@ -14,6 +14,31 @@ The main objective of this app is to manage in an effective manner an API (Desig
 ### Individual Product
 <img width="1440" alt="Captura de Pantalla 2021-03-08 a la(s) 19 21 38" src="https://user-images.githubusercontent.com/66181337/110403917-8a83f500-8043-11eb-9013-e043b8aa43db.png">
 
+### Category Screen
+<img width="1440" alt="Captura de Pantalla 2021-04-02 a la(s) 13 21 38" src="https://user-images.githubusercontent.com/66181337/113447198-9f3f7880-93b6-11eb-88bb-3b3edccbf93e.png">
+
+### Products by category
+<img width="1440" alt="Captura de Pantalla 2021-04-02 a la(s) 13 22 25" src="https://user-images.githubusercontent.com/66181337/113447240-aebec180-93b6-11eb-8025-1fc2f7d1d34f.png">
+
+
+## UI - Mobile
+### Products Screen
+<img width="373" alt="Captura de Pantalla 2021-04-01 a la(s) 23 02 30" src="https://user-images.githubusercontent.com/66181337/113452106-9358b400-93c0-11eb-8eb8-1ed6cd78aad1.png">
+
+### Individual Product
+<img width="373" alt="Captura de Pantalla 2021-04-01 a la(s) 23 17 20" src="https://user-images.githubusercontent.com/66181337/113452127-9f447600-93c0-11eb-8ba4-42feb355ee14.png">
+
+<img width="373" alt="Captura de Pantalla 2021-04-01 a la(s) 23 18 13" src="https://user-images.githubusercontent.com/66181337/113452147-aa97a180-93c0-11eb-90d5-9211b4bd3541.png">
+
+### Category Screen
+<img width="373" alt="Captura de Pantalla 2021-04-01 a la(s) 23 02 48" src="https://user-images.githubusercontent.com/66181337/113452162-b84d2700-93c0-11eb-988b-a9a3be4794da.png">
+
+### Products by category
+<img width="373" alt="Captura de Pantalla 2021-04-01 a la(s) 23 03 15" src="https://user-images.githubusercontent.com/66181337/113452194-c4d17f80-93c0-11eb-9177-08b50d3c6c75.png">
+
+<img width="373" alt="Captura de Pantalla 2021-04-01 a la(s) 23 18 42" src="https://user-images.githubusercontent.com/66181337/113452205-c733d980-93c0-11eb-8dbc-262801b29dec.png">
+
+
 ## Available Scripts
 
 In the project directory, you can run:
