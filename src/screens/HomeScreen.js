@@ -14,8 +14,6 @@ export default function Product(props) {
     fetchProducts();
   }, []);
 
-  console.log(products);
-
   return (
     <>
     <h1>Products</h1>

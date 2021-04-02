@@ -15,9 +15,6 @@ export default function CategoryScreen(props) {
     fetchProducts();
   }, [category]);
 
-  console.log(category);
-  console.log(products);
-
   return (
     <>
     <div className="category__header">
