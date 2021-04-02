@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import ProductCard from '../components/ProductCard';
 
-export default function Product(props) {
+export default function Product() {
   const [products, setProducts] = useState([]);
 
   const fetchProducts = async () => {

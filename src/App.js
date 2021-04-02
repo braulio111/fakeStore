@@ -19,9 +19,9 @@ function App() {
       </div>
       <div className="main">
         <Switch>
-        <Route path="/product/:id" component={ProductScreen}></Route>
-        <Route path="/" component={HomeScreen} exact></Route>
-        <Route path="/category" component={CategoriesScreen}></Route>
+          <Route path="/product/:id" component={ProductScreen}></Route>
+          <Route path="/" component={HomeScreen} exact></Route>
+          <Route path="/category" component={CategoriesScreen}></Route>
         </Switch>
       </div>
       <div className="footer">All rights reserved.</div>

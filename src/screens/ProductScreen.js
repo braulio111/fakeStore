@@ -17,10 +17,11 @@ export default function ProductScreen(props) {
   return(
     <>
     <Link to="/" className="products__link">←  Products</Link>
+    <Link to="/" className="back-arrow products__link-mobile">←</Link>
     <div className="product">
       <div className="product__title-img">
         <h1 className="product__title">{product.title}</h1>
-        <img src={product.image} alt="" className="large small" height="600px" width="340px" />
+        <img src={product.image} alt="" className="large small" height="350px" width="340px" />
       </div>
       <div className="product__info">
         <h3 className="product__category">{product.category}</h3>

@@ -2,6 +2,8 @@
 
 Responsive React estore fetching fakestoreapi.com for items.
 
+The main objective of this app is to manage in an effective manner an API (Design can easily be changed).
+
 ## To-do
 - Deployment
 

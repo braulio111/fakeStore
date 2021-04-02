@@ -19,7 +19,7 @@ export default function CategoryScreen(props) {
     <>
     <div className="category__header">
       <Link to="/category" className="categories__link">←  Categories</Link>
-      <Link to="/category" className="categories__link-mobile">←</Link>
+      <Link to="/category" className="back-arrow categories__link-mobile">←</Link>
       <h1 className="category__title">{category.toUpperCase()}</h1>
     </div>
     <div className="cards-wrap">
