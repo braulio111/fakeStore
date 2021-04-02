@@ -1,9 +1,8 @@
 # fakeStore
 
-React estore fetching fakestoreapi.com for items.
+Responsive React estore fetching fakestoreapi.com for items.
 
 ## To-do
-- Organize class naming and entire styling file
 - Deployment
 
 ## UI - Desktop
