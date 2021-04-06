@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background-color: #000000;
 }
 
 body {
@@ -125,6 +126,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid #000;
 }
 
 /* Product page */
@@ -173,6 +175,10 @@ body {
   cursor: pointer;
 }
 
+.product_image {
+  margin-top: 80px;
+}
+
 .products__link {
   text-decoration: none;
   color: #000000;
@@ -201,6 +207,13 @@ body {
 
 .back-arrow {
   display: none;
+}
+
+.loading_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 @media only screen and (max-device-width : 768px) {
@@ -233,5 +246,10 @@ body {
   .card_img {
     width: 250px;
     height: 250px;
+  }
+
+  .product_image {
+    margin-top: 50px;
+    height: 350px;
   }
 }
