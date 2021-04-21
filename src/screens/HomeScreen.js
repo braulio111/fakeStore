@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import ProductCard from '../components/ProductCard';
 import Loader from 'react-loader-spinner';
+import { FaSteam } from 'react-icons/fa';
 
 export default function Product() {
   const [products, setProducts] = useState([]);

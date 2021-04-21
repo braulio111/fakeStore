@@ -9,7 +9,7 @@ export default function CategoryCards() {
         <a href="/category/men%20clothing">
           <img src="https://purepng.com/public/uploads/large/purepng.com-suitclothingsuitfashion-people-men-dress-black-cloth-suit-vest-coat-waistcoat-631522327063pe2oh.png" alt="producto" className="card__img" width="300px" height="300px" />
         </a>
-        <a href="/category/men%20clothing">
+        <a href="/category/men's%20clothing">
           <h2 className="card__title">Men Clothing</h2>
         </a>
       </div>
@@ -30,7 +30,7 @@ export default function CategoryCards() {
         </a>
       </div>
       <div className="card category-card">
-        <a href="/category/women%20clothing">
+        <a href="/category/women's%20clothing">
           <img src="https://www.pngarts.com/files/5/Midi-Dress-PNG-Pic.png" alt="producto" className="card__img" width="300px" height="300px" />
         </a>
         <a href="/category/women%20clothing">
